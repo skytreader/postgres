@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-FROM debian:jessie
+FROM ubuntu:16.04
 
 RUN set -ex; \
 	if ! command -v gpg > /dev/null; then \
